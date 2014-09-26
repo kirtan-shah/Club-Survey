@@ -6,20 +6,20 @@ top:0%;
 left:15%;
 transform: rotate(-180deg);
 -webkit-transform: rotate(-180deg);
--webkit-animation:rollin 7s ease-out 0.5s both;
-animation:rollin 7s ease-out 0.5s both;
+-webkit-animation:rollin 5s ease-out 0.5s both;
+animation:rollin 5s ease-out 0.5s both;
 }
 @-webkit-keyframes rollin {
 0%{left:-80%;top:-80%;transform: rotate(-180deg);-webkit-transform: rotate(-180deg);}
 75%{left:15%;top:0%;transform: rotate(-360deg);-webkit-transform: rotate(-360deg);}
 75.1%{left:15%;top:0%;transform: rotate(0deg);-webkit-transform: rotate(0deg);}
-88%{left:15%;top:0%;transform: rotate(20deg);-webkit-transform: rotate(20deg);}
+88%{left:15%;top:0%;transform: rotate(-20deg);-webkit-transform: rotate(-20deg);}
 100%{left:15%;top:0%;transform: rotate(0deg);-webkit-transform: rotate(0deg);}
 }
 @keyframes rollin {
 0%{left:-80%;top:-80%;transform: rotate(-180deg);-webkit-transform: rotate(-180deg);}
 43%{left:15%;top:0%;transform: rotate(-360deg);-webkit-transform: rotate(-360deg);}
-43.1%{left:15%;top:0%;transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+43.1%{left:15%;top:0%;transform: rotate(-20deg);-webkit-transform: rotate(-20deg);}
 100%{left:15%;top:0%;transform: rotate(-360deg);-webkit-transform: rotate(-360deg);}
 }
   
