@@ -19,10 +19,15 @@ animation:rollin 5s linear 0.5s forwards;
 75%{left:15%;top:0%;transform: rotate(-380deg);-webkit-transform: rotate(-380deg);}
 100%{left:15%;top:-5%;transform: rotate(-360deg);-webkit-transform: rotate(-360deg);}
 }
-  
+body{
+background-image: -o-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 255) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 255) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 255) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 255) 100%);
+background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 255) 100%);
+}
 </style>
 <script src="EZJS.js"></script>
 <script>
-  background(0,0,255);
   
 </script>
