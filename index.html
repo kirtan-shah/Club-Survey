@@ -4,17 +4,17 @@
 position:absolute;
 top:0%;
 left:15%;
-transform: rotate(0deg);
--webkit-transform: rotate(0deg);
--webkit-animation:rollin 4s ease-out;
-animation:rollin 4s ease-out;
+transform: rotate(-360deg);
+-webkit-transform: rotate(-360deg);
+-webkit-animation:rollin 3s ease-out;
+animation:rollin 3s ease-out;
 }
 @-webkit-keyframes rollin {
-from{left:80%;top:80%;transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+from{left:-80%;top:-80%;transform: rotate(-180deg);-webkit-transform: rotate(-180deg);}
 to{left:15%;top:0%;transform: rotate(-);-webkit-transform: rotate(-360deg);}
 }
 @keyframes rollin {
-from{left:80%;top:80%;transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+from{left:-80%;top:-80%;transform: rotate(-180deg);-webkit-transform: rotate(-180deg);}
 to{left:15%;top:0%;transform: rotate(-360deg);-webkit-transform: rotate(-360deg);}
 }
   
